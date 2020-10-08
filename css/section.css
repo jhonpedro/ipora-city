@@ -72,10 +72,6 @@ section .text-brand {
   z-index: -1;
 }
 
-.bg-dark-blue {
-  background-color: var(--color-dark-blue);
-}
-
 /* Big circle */
 section .circles1::before {
   background-color: inherit;
