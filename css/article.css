@@ -62,7 +62,7 @@
   text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 662px) {
   .image {
     display: none !important;
   }
