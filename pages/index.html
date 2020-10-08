@@ -15,19 +15,22 @@
     />
     <link rel="shortcut icon" href="../assets/ipora.svg" type="image/x-icon" />
   </head>
-  <body>
+  <body id="root">
     <header>
       <nav>
         <div class="logo-image">
           <img src="../assets/ipora.svg" alt="Simbolo Iporá" />
         </div>
         <strong>Menu</strong>
-        <div class="nav-items">
+        <div class="items" id="nav-items">
           <ul>
             <li>Saúde</li>
             <li>Lazer</li>
             <li>História</li>
           </ul>
+        </div>
+        <div class="btn" id="hamburguer">
+          <div class="btn-hamburguer"></div>
         </div>
       </nav>
     </header>
@@ -71,7 +74,8 @@
           Não só a saúde mas também a qualidade de vida é muito importante para
           todos os habitates da nossa nobre cidade.
           <br />
-          Veja mais sobre lazer e pontos turísticos aqui COLOCA LINK AQ
+          Veja mais sobre lazer e pontos turísticos
+          <a href="./leisure.html">aqui</a>
         </p>
       </div>
     </article>
@@ -102,7 +106,7 @@
           Iporá foi um acontecimento na fundacão do Arraial de Pilões nas
           margens do Rio Claro, em 1748
           <br />
-          Veja mais sobre a história <a href="">aqui</a>
+          Veja mais sobre a história <a href="./history.html">aqui</a>
         </p>
       </div>
     </article>
@@ -123,4 +127,5 @@
       </div>
     </footer>
   </body>
+  <script src="../js/hamburguer-menu.js"></script>
 </html>
