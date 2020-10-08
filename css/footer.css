@@ -1,0 +1,30 @@
+footer {
+  background-color: var(--color-grey);
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .flag {
+  display: flex;
+  align-items: center;
+}
+
+footer .flag strong {
+  margin-right: 1rem;
+}
+footer .flag object {
+  width: 2.5rem;
+}
+
+footer .text-content::before {
+  content: 'Desenvolvido por: João Pedro Barros Ferreira';
+  font-weight: bold;
+}
+
+footer a {
+  font-size: 1rem;
+}

@@ -1,0 +1,142 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  animation: fadeIn 2s ease;
+}
+
+section .city-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+section .city-label {
+  font-size: 1rem;
+}
+
+section object {
+  height: 100rem;
+  border-radius: 10rem;
+}
+
+section .text-brand {
+  font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+  section .city-name {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  section .city-label {
+    font-size: 1.5rem;
+  }
+
+  section object {
+    width: 70%;
+  }
+
+  section .text-brand {
+    font-size: 4rem;
+  }
+}
+
+@media (min-height: 662px) {
+  section object {
+    height: 50%;
+    border-radius: 10rem;
+  }
+
+  section .card .image {
+    display: none;
+  }
+}
+
+.cirle {
+  z-index: -1;
+}
+
+/* Big circle */
+section .circles1::before {
+  background-color: var(--color-dark-blue);
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+
+  content: '';
+
+  position: absolute;
+  top: 20%;
+  right: -130px;
+}
+
+/* Medium circle right */
+section .circles1::after {
+  background-color: var(--color-dark-blue);
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+
+  content: '';
+
+  position: absolute;
+  top: 45%;
+  right: 80px;
+}
+
+/* Small circle right */
+section .circles2::before {
+  background-color: var(--color-dark-blue);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+  content: '';
+
+  position: absolute;
+  top: 75%;
+  right: -2.5rem;
+}
+/* Medium circle left */
+section .circles2::after {
+  background-color: var(--color-dark-blue);
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+
+  content: '';
+
+  position: absolute;
+  top: 70%;
+  left: -5rem;
+}
+
+/* Small circle left */
+section .circles3::before {
+  background-color: var(--color-dark-blue);
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+
+  content: '';
+
+  position: absolute;
+  top: 30%;
+  left: 20rem;
+}

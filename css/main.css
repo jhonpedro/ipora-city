@@ -1,0 +1,44 @@
+:root {
+  font-size: 60%;
+
+  --color-light: #f8f9fa;
+  --color-dark: #4a4e4d;
+  --color-grey: #eeeeee;
+  --color-light-blue: #3da4ab;
+  --color-dark-blue: #0e9aa7;
+  --color-yellow: #f6cd61;
+  --color-red: #fe8a71;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+
+  font-family: Poppins;
+  z-index: 1;
+}
+
+html,
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  background-color: var(--color-light);
+}
+
+@media (min-height: 992px) {
+  :root {
+    font-size: 150%;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}

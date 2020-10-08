@@ -1,0 +1,66 @@
+@keyframes appearFromUp {
+  from {
+    transform: translateY(-4rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+
+  z-index: 2;
+  animation: appearFromUp 500ms ease;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.3);
+}
+
+header nav {
+  display: flex;
+  background-color: var(--color-yellow);
+  padding: 0 2rem;
+  font-size: 1.5rem;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav strong {
+  color: var(--color-light);
+  font-size: 3rem;
+}
+
+header nav .logo-image {
+  width: 33%;
+}
+
+header nav .logo-image img {
+  height: 7rem;
+}
+
+header nav .nav-items {
+  width: 33%;
+}
+
+header nav .nav-items {
+  width: 33%;
+}
+
+header nav .nav-items ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+hader nav .nav-items ul li {
+  margin: 0 2rem;
+}
+
+@media (max-width: 662px) {
+  header nav strong {
+    display: none;
+  }
+}
