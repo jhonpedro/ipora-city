@@ -33,7 +33,7 @@ body {
 
 @media (min-height: 992px) {
   :root {
-    font-size: 150%;
+    font-size: 110%;
   }
 }
 
@@ -41,4 +41,16 @@ a {
   text-decoration: none;
   font-weight: bold;
   color: inherit;
+}
+
+.bg-dark-blue {
+  background-color: var(--color-dark-blue);
+}
+
+.bg-yellow {
+  background-color: var(--color-yellow);
+}
+
+.bg-red {
+  background-color: var(--color-red);
 }
