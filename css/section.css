@@ -72,9 +72,13 @@ section .text-brand {
   z-index: -1;
 }
 
+.bg-dark-blue {
+  background-color: var(--color-dark-blue);
+}
+
 /* Big circle */
 section .circles1::before {
-  background-color: var(--color-dark-blue);
+  background-color: inherit;
   height: 260px;
   width: 260px;
   border-radius: 50%;
@@ -88,7 +92,7 @@ section .circles1::before {
 
 /* Medium circle right */
 section .circles1::after {
-  background-color: var(--color-dark-blue);
+  background-color: inherit;
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
@@ -102,7 +106,7 @@ section .circles1::after {
 
 /* Small circle right */
 section .circles2::before {
-  background-color: var(--color-dark-blue);
+  background-color: inherit;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -115,7 +119,7 @@ section .circles2::before {
 }
 /* Medium circle left */
 section .circles2::after {
-  background-color: var(--color-dark-blue);
+  background-color: inherit;
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
@@ -129,7 +133,7 @@ section .circles2::after {
 
 /* Small circle left */
 section .circles3::before {
-  background-color: var(--color-dark-blue);
+  background-color: inherit;
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
