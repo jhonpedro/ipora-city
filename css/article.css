@@ -23,8 +23,6 @@
 }
 
 .card-center {
-  background-color: var(--color-yellow);
-
   width: 50%;
   margin: 0 auto;
   border-radius: 13rem;

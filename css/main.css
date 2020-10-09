@@ -44,13 +44,13 @@ a {
 }
 
 .bg-dark-blue {
-  background-color: var(--color-dark-blue);
+  background-color: var(--color-dark-blue) !important;
 }
 
 .bg-yellow {
-  background-color: var(--color-yellow);
+  background-color: var(--color-yellow) !important;
 }
 
 .bg-red {
-  background-color: var(--color-red);
+  background-color: var(--color-red) !important;
 }
