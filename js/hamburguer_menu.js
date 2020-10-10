@@ -6,11 +6,11 @@ hamburguerMenu.addEventListener('click', () => {
   if (isOpen) {
     isOpen = false
     navItems.style.opacity = '0'
-    return navItems.classList.remove('open', 'bg-yellow')
+    return navItems.classList.remove('open')
   }
 
   navItems.style.opacity = '1'
-  navItems.classList.add('open', 'bg-yellow')
+  navItems.classList.add('open')
   isOpen = true
 })
 
@@ -21,3 +21,7 @@ window.addEventListener('resize', () => {
     navItems.style.opacity = '0'
   }
 })
+
+function isOpenToDefault() {
+  isOpen = false
+}

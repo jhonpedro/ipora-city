@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cidade de iporá</title>
+    <title>Cidade de Iporá</title>
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/section.css" />
-    <link rel="stylesheet" href="../css/article.css" />
+    <link rel="stylesheet" href="../css/card.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -17,16 +17,26 @@
   </head>
   <body id="root">
     <header>
-      <nav>
+      <nav class="bg-dark-blue">
         <div class="logo-image">
           <img src="../assets/ipora.svg" alt="Simbolo Iporá" />
         </div>
         <strong>Menu</strong>
         <div class="items" id="nav-items">
           <ul>
-            <li>Saúde</li>
-            <li>Lazer</li>
-            <li>História</li>
+            <li>
+              <a onclick="isOpenToDefault()" href="./public_health.html"
+                >Saúde</a
+              >
+            </li>
+            <li>
+              <a onclick="isOpenToDefault()" href="./public_health.html"
+                >Lazer</a
+              >
+            </li>
+            <li>
+              <a onclick="isOpenToDefault()" href="./history.html">História</a>
+            </li>
           </ul>
         </div>
         <div class="btn" id="hamburguer">
@@ -58,7 +68,7 @@
           Em iporá a saude de seus habitantes vem em primeiro lugar, UPA
           disponível em caso de emergências e PSF’s prontas para atender você.
           <br />
-          Veja mais sobre a saúde aqui COLOCA LINK AQ
+          Veja mais sobre a saúde <a href="./public_health.html">aqui</a>
         </p>
       </div>
     </article>
@@ -80,7 +90,7 @@
       </div>
     </article>
 
-    <article class="card card-center bg-yellow">
+    <article class="card card-center bg-dark-blue">
       <div class="image">
         <object type="image/svg+xml" data="../assets/ipora.svg">
           Your browser don't suport SVG's
@@ -113,12 +123,16 @@
     <footer>
       <div class="text-content">
         <p>
-          Todos os conteúdos aqui apresentados são ficticios e para meios
-          acadêmicos.
+          Todos os conteúdos aqui apresentados são <strong>ficticios</strong> e
+          para meios acadêmicos.
         </p>
         <p>
           As imagens e desenhos utilizados são de terceiros, podem ser acessadas
           por aqui na <a href="https://stories.freepik.com/">Stories Freepik</a>
+        </p>
+        <p>
+          Fontes utilizadas podem ser encontradas aqui
+          <a href="https://fonts.google.com/">Google Fonts</a>
         </p>
       </div>
       <div class="flag">
@@ -127,5 +141,5 @@
       </div>
     </footer>
   </body>
-  <script src="../js/hamburguer-menu.js"></script>
+  <script src="../js/hamburguer_menu.js"></script>
 </html>
