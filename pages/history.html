@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cidade de Iporá</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/section.css" />
+    <link rel="stylesheet" href="../css/card.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/dropdown.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../assets/ipora.svg" type="image/x-icon" />
+  </head>
+  <body id="root">
+    <header>
+      <nav class="bg-red">
+        <div class="logo-image">
+          <img src="../assets/ipora.svg" alt="Simbolo Iporá" />
+        </div>
+        <strong>Menu</strong>
+        <div class="items" id="nav-items">
+          <ul>
+            <li onclick="isOpenToDefault()"><a href="./index.html">Home</a></li>
+            <li onclick="isOpenToDefault()">
+              <a href="./public_health.html">Saúde</a>
+            </li>
+            <li onclick="isOpenToDefault()">
+              <a href="./public_health.html">Lazer</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn" id="hamburguer">
+          <div class="btn-hamburguer"></div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="circle circles1 bg-red"></div>
+      <div class="circle circles2 bg-red"></div>
+      <div class="circle circles3 bg-red"></div>
+
+      <p class="city-name">História</p>
+      <p class="city-label">
+        Uma grande riqueza que não reside somente no estado físico
+      </p>
+      <object
+        type="image/svg+xml"
+        data="../assets/People visiting history museum-amico.svg"
+      >
+        Your browser don't suport SVG's
+      </object>
+      <p class="text-brand">Uma história especial e turbulenta</p>
+    </section>
+
+    <article class="dropdown" id="article1" onclick="openDropdown(this)">
+      <div class="dropdown-header">
+        <div class="dropdown-icon">
+          <object type="image/svg+xml" data="../assets/chevron-down-solid.svg">
+            Your browser don't suport SVG's
+          </object>
+        </div>
+        <div class="title">Onde tudo começou</div>
+      </div>
+      <div class="texts">
+        A nossa história começa com a vinda de uma de exploradores dos quais os
+        princípios eram o enriquecimento. A busca por recursos em outro local já
+        era escassa e a necessidade da mudança do local explorado era
+        necessária, fazendo com que assim os exploradores viajassem em rumo a
+        nossa preciosa cidade. <br />
+        Com o tempo foi se formado um povoado que hoje é a linda cidade de
+        Iporá, em uma busca ambiciosa pela qualidade de vida de seus habitantes
+        <br />
+        <br />
+        Veja a história real
+        <a
+          href="https://ifgoiano.edu.br/museuvirtual/?page_id=99#:~:text=Ipor%C3%A1%20teve%20sua%20origem%2C%20oficialmente,do%20Rio%20Claro%2C%20em%201748.&text=Assim%2C%20em%205%20de%20julho,de%20Goi%C3%A1s%20(Vila%20Boa)."
+          >aqui</a
+        >
+      </div>
+    </article>
+    <article class="dropdown" id="article1" onclick="openDropdown(this)">
+      <div class="dropdown-header">
+        <div class="dropdown-icon">
+          <object type="image/svg+xml" data="../assets/chevron-down-solid.svg">
+            Your browser don't suport SVG's
+          </object>
+        </div>
+        <div class="title">Os primeiros cidadãos</div>
+      </div>
+      <div class="texts">
+        Como dito acima os exploradores eram uma familia que viera para a
+        conquista de riquesas, e assim foi feito. Com a exploração de terras foi
+        possível extrair as riquezas presentes no solo . <br />
+        Não somente mas também vale ressaltar que todas as histórias
+        apresentadas são para o "recheamento de linguiças" e são totalmente
+        ficticios.
+      </div>
+    </article>
+    <article class="dropdown" id="article1" onclick="openDropdown(this)">
+      <div class="dropdown-header">
+        <div class="dropdown-icon">
+          <object type="image/svg+xml" data="../assets/chevron-down-solid.svg">
+            Your browser don't suport SVG's
+          </object>
+        </div>
+        <div class="title">Por que o nome "Iporá"?</div>
+      </div>
+      <div class="texts">
+        Essa questão é simples, "Ipo" vem de Initial Public Offering, que é
+        representado na primeira vez que uma empresa vende suas ações
+        publicamente. <br />
+        Já "rá", vem de um grito famoso pelos habitantes locais. Surgindo assim
+        a prosperá Iporá!
+      </div>
+    </article>
+
+    <footer>
+      <div class="text-content">
+        <p>
+          Todos os conteúdos aqui apresentados são <strong>ficticios</strong> e
+          para meios acadêmicos.
+        </p>
+        <p>
+          As imagens e desenhos utilizados são de terceiros, podem ser acessadas
+          por aqui na <a href="https://stories.freepik.com/">Stories Freepik</a>
+        </p>
+        <p>
+          Fontes utilizadas podem ser encontradas aqui
+          <a href="https://fonts.google.com/">Google Fonts</a>
+        </p>
+      </div>
+      <div class="flag">
+        <strong>IF Goiano - Brasil</strong>
+        <object type="image/svg+xml" data="../assets/br.svg"></object>
+      </div>
+    </footer>
+  </body>
+  <script src="../js/hamburguer_menu.js"></script>
+  <script src="../js/dropdown.js"></script>
+</html>

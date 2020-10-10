@@ -1,0 +1,55 @@
+.dropdown {
+  position: relative;
+  width: 80%;
+  height: 7rem;
+  margin: 1rem auto;
+  outline: none;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-header {
+  height: 100%;
+  padding: 1rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-grey);
+  border-radius: 2rem;
+}
+
+.dropdown .dropdown-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+
+  transition: 1s ease;
+}
+.dropdown .dropdown-icon object {
+  height: 2rem;
+}
+
+.dropdown .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.texts {
+  font-size: 1.5rem;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  color: var(--color-grey);
+  height: 0;
+  overflow: hidden;
+
+  background-color: var(--color-dark);
+  padding: 3rem 2rem 2rem;
+  border-radius: 2rem;
+  transition: all 1s ease;
+  top: 0;
+}
