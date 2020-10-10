@@ -20,16 +20,15 @@ header {
 
 header nav {
   display: flex;
-  background-color: var(--color-yellow);
   padding: 0 2rem;
   font-size: 1.5rem;
 
   justify-content: space-between;
   align-items: center;
+  color: var(--color-light);
 }
 
 header nav strong {
-  color: var(--color-light);
   font-size: 3rem;
 }
 
@@ -99,7 +98,9 @@ hader nav .items ul li {
   }
 
   header nav .items {
+    opacity: 0;
     position: absolute;
+    background-color: inherit;
     z-index: -1;
     height: 100vh;
     right: 0;

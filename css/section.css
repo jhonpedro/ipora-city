@@ -36,6 +36,7 @@ section object {
 
 section .text-brand {
   font-size: 2rem;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
