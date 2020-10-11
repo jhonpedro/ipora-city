@@ -54,3 +54,6 @@ a {
 .bg-red {
   background-color: var(--color-red) !important;
 }
+.bg-light-blue {
+  background-color: var(--color-light-blue) !important;
+}
