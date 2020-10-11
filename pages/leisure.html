@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cidade de Iporá</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/section.css" />
+    <link rel="stylesheet" href="../css/card.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/dropdown.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../assets/ipora.svg" type="image/x-icon" />
+  </head>
+  <body id="root">
+    <header>
+      <nav class="bg-light-blue">
+        <div class="logo-image">
+          <img src="../assets/ipora.svg" alt="Simbolo Iporá" />
+        </div>
+        <strong>Menu</strong>
+        <div class="items" id="nav-items">
+          <ul>
+            <li onclick="isOpenToDefault()"><a href="./index.html">Home</a></li>
+            <li onclick="isOpenToDefault()">
+              <a href="./public_health.html">Saúde</a>
+            </li>
+            <li onclick="isOpenToDefault()">
+              <a href="./history.html">História</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn" id="hamburguer">
+          <div class="btn-hamburguer"></div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="circle circles1 bg-light-blue"></div>
+      <div class="circle circles2 bg-light-blue"></div>
+      <div class="circle circles3 bg-light-blue"></div>
+
+      <p class="city-name">Lazer</p>
+      <p class="city-label">A saúde em todos os aspectos é importante</p>
+      <object type="image/svg+xml" data="../assets/Passing by-amico.svg">
+        Your browser don't suport SVG's
+      </object>
+      <p class="text-brand">Ambientes diferenciados e prontos para visitação</p>
+    </section>
+
+    <article class="card card-center bg-light-blue">
+      <div class="image">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15307.47214221754!2d-51.115345!3d-16.4315272!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf31854986df56fc4!2sLago%20P%C3%B4r-do-Sol!5e0!3m2!1spt-BR!2sbr!4v1602359023213!5m2!1spt-BR!2sbr"
+          width="215"
+          height="200"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+      <div class="text-content">
+        <strong>Lago por do sol</strong>
+        <p>
+          Toda cidade do interior tem um ponto turístico marcante, o nosso é o
+          lago
+        </p>
+      </div>
+    </article>
+    <article class="dropdown" id="article1" onclick="openDropdown(this)">
+      <div class="dropdown-header">
+        <div class="dropdown-icon">
+          <object type="image/svg+xml" data="../assets/chevron-down-solid.svg">
+            Your browser don't suport SVG's
+          </object>
+        </div>
+        <div class="title">Principais pontos de Lazer</div>
+      </div>
+      <div class="texts">
+        Assim como o lago, o Morro do Macaco é um belo local para visitação,
+        tendo uma vista linda para partes da cidade <br />
+        Há também diversas outras maneiras de se divertir na cidade como:
+        restaurantes, pizzarias, bares e etc...
+      </div>
+    </article>
+
+    <footer>
+      <div class="text-content">
+        <p>
+          Todos os conteúdos aqui apresentados são <strong>ficticios</strong> e
+          para meios acadêmicos.
+        </p>
+        <p>
+          As imagens e desenhos utilizados são de terceiros, podem ser acessadas
+          por aqui na <a href="https://stories.freepik.com/">Stories Freepik</a>
+        </p>
+        <p>
+          Fontes utilizadas podem ser encontradas aqui
+          <a href="https://fonts.google.com/">Google Fonts</a>
+        </p>
+      </div>
+      <div class="flag">
+        <strong>IF Goiano - Brasil</strong>
+        <object type="image/svg+xml" data="../assets/br.svg"></object>
+      </div>
+    </footer>
+  </body>
+  <script src="../js/hamburguer_menu.js"></script>
+  <script src="../js/dropdown.js"></script>
+</html>
