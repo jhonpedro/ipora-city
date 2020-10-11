@@ -3,6 +3,7 @@
   padding: 3rem 0;
   border-radius: 9rem;
   color: var(--color-light);
+  overflow: hidden;
 
   margin: 2rem 0;
 
@@ -24,7 +25,7 @@
 
 .card-center {
   width: 50%;
-  margin: 0 auto;
+  margin: 2rem auto;
   border-radius: 13rem;
 }
 
@@ -38,7 +39,7 @@
   align-items: center;
 
   height: 15rem;
-  width: 25rem;
+  width: 70%;
   padding: 1rem;
 }
 
@@ -51,6 +52,7 @@
   font-size: 1.5rem;
   padding-right: 1rem;
   margin: 4rem;
+  width: 40%;
 }
 
 .card .text-content strong {
