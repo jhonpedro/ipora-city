@@ -11,7 +11,7 @@
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jhonpedro/ipora-city">
 
-  <a href="https://www.linkedin.com/in/eliasgcf/">
+  <a href="">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-joao%20pedro-gree">
   </a>
 
